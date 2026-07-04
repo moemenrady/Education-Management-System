@@ -1,12 +1,14 @@
-w<!DOCTYPE html>
+w
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>عرض سعر: نظام إدارة منظومة تعليمية</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         :root {
             --primary-color: #0f172a;
@@ -70,7 +72,7 @@ w<!DOCTYPE html>
             background: var(--card-bg);
             border-radius: 12px;
             padding: 20px 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             text-align: center;
             min-width: 280px;
             border-top: 4px solid var(--accent-color);
@@ -143,10 +145,12 @@ w<!DOCTYPE html>
             background: var(--card-bg);
             border-radius: 10px;
             padding: 25px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             border: 1px solid var(--border-color);
-            opacity: 0; /* For animation */
-            transform: translateY(20px); /* For animation */
+            opacity: 0;
+            /* For animation */
+            transform: translateY(20px);
+            /* For animation */
             transition: all 0.5s ease;
         }
 
@@ -209,7 +213,7 @@ w<!DOCTYPE html>
             background: var(--card-bg);
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
         }
 
         .list-box h3 {
@@ -234,8 +238,15 @@ w<!DOCTYPE html>
             font-weight: 600;
         }
 
-        .tag.danger { background: #fee2e2; color: var(--danger); }
-        .tag.success { background: #d1fae5; color: var(--success); }
+        .tag.danger {
+            background: #fee2e2;
+            color: var(--danger);
+        }
+
+        .tag.success {
+            background: #d1fae5;
+            color: var(--success);
+        }
 
         /* Roles */
         .roles-container {
@@ -244,6 +255,7 @@ w<!DOCTYPE html>
             margin-bottom: 60px;
             flex-wrap: wrap;
         }
+
         .role-card {
             flex: 1;
             min-width: 250px;
@@ -263,16 +275,24 @@ w<!DOCTYPE html>
 
         /* Responsive */
         @media (max-width: 768px) {
-            header h1 { font-size: 2rem; }
-            .summary-container { margin-top: 20px; flex-direction: column; }
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .summary-container {
+                margin-top: 20px;
+                flex-direction: column;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <header>
         <h1>نظام إدارة منظومة تعليمية</h1>
-        <p class="overview">نظام ويب متكامل لإدارة السناتر والأكاديميات التعليمية، يهدف إلى تنظيم وإدارة جميع العمليات اليومية بفاعلية واحترافية، مع توفير لوحات تحكم وتقارير دقيقة لاتخاذ القرارات.</p>
+        <p class="overview">نظام ويب متكامل لإدارة السناتر والأكاديميات التعليمية، يهدف إلى تنظيم وإدارة جميع العمليات
+            اليومية بفاعلية واحترافية، مع توفير لوحات تحكم وتقارير دقيقة لاتخاذ القرارات.</p>
     </header>
 
     <div class="summary-container">
@@ -292,9 +312,9 @@ w<!DOCTYPE html>
 
     <div class="container">
         <h2 class="section-title">نطاق العمل (Scope of Work)</h2>
-        
+
         <div class="scope-grid">
-            
+
             <div class="scope-card highlight reveal">
                 <h3><i class="fa-solid fa-book"></i> 1. إدارة المواد والكتب</h3>
                 <ul>
@@ -367,11 +387,13 @@ w<!DOCTYPE html>
         <div class="roles-container reveal">
             <div class="role-card">
                 <h3><i class="fa-solid fa-user-tie"></i> مدير النظام (Admin)</h3>
-                <p>صلاحية كاملة لإدارة النظام، المستخدمين، كافة البيانات، والاطلاع المفتوح على جميع التقارير المالية والإدارية.</p>
+                <p>صلاحية كاملة لإدارة النظام، المستخدمين، كافة البيانات، والاطلاع المفتوح على جميع التقارير المالية
+                    والإدارية.</p>
             </div>
             <div class="role-card">
                 <h3><i class="fa-solid fa-user"></i> السكرتير (Secretary)</h3>
-                <p>إدارة الطلاب، الاشتراكات، تسجيل الحضور، إصدار الفواتير، تسجيل المصروفات، والاطلاع على التقارير التشغيلية فقط.</p>
+                <p>إدارة الطلاب، الاشتراكات، تسجيل الحضور، إصدار الفواتير، تسجيل المصروفات، والاطلاع على التقارير
+                    التشغيلية فقط.</p>
             </div>
         </div>
 
@@ -389,7 +411,7 @@ w<!DOCTYPE html>
                     </ul>
                 </div>
             </div>
-            
+
             <div class="list-box">
                 <h3><i class="fa-solid fa-star"></i> مزايا إضافية للتشغيل</h3>
                 <ul>
@@ -404,21 +426,9 @@ w<!DOCTYPE html>
         <h2 class="section-title">حدود النطاق ومستقبل التطوير</h2>
         <div class="flex-lists reveal">
             <div class="list-box">
-                <h3><i class="fa-solid fa-ban"></i> خارج نطاق المرحلة الحالية</h3>
-                <p style="font-size: 0.9rem; color: var(--text-light);">الإصدار الحالي لا يشمل الميزات التالية لضمان سرعة الإطلاق:</p>
-                <div class="tags-container">
-                    <span class="tag danger">تطبيقات الهواتف</span>
-                    <span class="tag danger">منصة تعليم إلكتروني</span>
-                    <span class="tag danger">بث المحاضرات</span>
-                    <span class="tag danger">الدفع الإلكتروني</span>
-                    <span class="tag danger">رسائل SMS / واتساب</span>
-                    <span class="tag danger">تعدد الفروع واللغات</span>
-                </div>
-            </div>
-
-            <div class="list-box">
                 <h3><i class="fa-solid fa-rocket"></i> التطوير المستقبلي (مُجهز مسبقاً)</h3>
-                <p style="font-size: 0.9rem; color: var(--text-light);">النظام مبني بهيكلية مرنة تسمح بإضافة هذه الخصائص لاحقاً دون إعادة برمجة:</p>
+                <p style="font-size: 0.9rem; color: var(--text-light);">النظام مبني بهيكلية مرنة تسمح بإضافة هذه الخصائص
+                    لاحقاً دون إعادة برمجة:</p>
                 <div class="tags-container">
                     <span class="tag success">منصة E-Learning</span>
                     <span class="tag success">تطبيقات Android/iOS</span>
@@ -454,4 +464,5 @@ w<!DOCTYPE html>
         });
     </script>
 </body>
+
 </html>
